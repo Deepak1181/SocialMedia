@@ -1,0 +1,3 @@
+MONGO_URI=mongodb+srv://dkp041297_db_user:s4RMJ4SaQYWMO70K@cluster0.tgpozp3.mongodb.net/userDB?retryWrites=true&w=majority&appName=Cluster0
+PORT=5000
+JWT_SECRET=mysupersecretkey
