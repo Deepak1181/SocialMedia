@@ -14,7 +14,8 @@ const authMiddleware = (req, res, next) => {
 };
 
 const isAdmin = (req, res, next) => {
-  if (req.user.role !== "admin") return res.status(403).json({ message: "Access forbidden" });
+  if (req.user.role !== "admin")
+    return res.status(403).json({ message: "Access forbidden" });
   next();
 };
 
